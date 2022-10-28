@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+body{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, rgb(0, 0, 0), #ccc);
+}
+
+.botones{
+    display: flex;
+    margin-left: 10%;
+}
+.boton_1{
+    height: 20px;
+    width: 50px;
+    background-color: rgb(41, 41, 41);;
+}
+.boton_2{
+    height: 20px;
+    width: 50px;
+    margin-left: 5px;
+    background-color: rgb(41, 41, 41);;
+}
+.boton_3{
+    height: 20px;
+    width: 50px;
+    margin-left: 200px;
+    background-color: rgb(41, 41, 41);;
+}
+.reloj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+    border: 30px solid rgb(17, 17, 17); 
+    border-radius: 15px;
+}
+
+.horas{
+    border: 15px solid rgb(105, 189, 245);
+    border-radius: 5px;
+    background-color: rgb(41, 41, 41);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+}
+
+.minutos{
+    border: 15px solid rgb(105, 189, 245);
+    border-radius: 5px;
+    background-color: rgb(41, 41, 41);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+}
+
+p{
+    color: white;
+}
